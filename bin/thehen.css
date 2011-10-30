@@ -1,0 +1,137 @@
+#scene{
+	width:500px;
+	height:500px;
+	border:3px solid black;
+	position:relative;
+	background-color:#004b00;
+	overflow:hidden;
+	margin:20px auto;
+}
+.playscene{
+	background-image:url(img/bg-main.png);
+}
+.communicateScene{
+	background-image:url(img/bg-big-hen.png);
+}
+.sprite{
+	width:20px;
+	height:20px;
+	position:absolute;
+	}
+.hen{
+	background-image:url(img/hen-bg.png);
+	z-index : 100;
+	}
+.nest{
+	background-image:url(img/nest-bg.png);
+	z-index : 100;
+	}
+.worm{
+	background-image:url(img/worm-bg.png);
+	z-index : 50;
+	}
+.brick{
+	background-image:url(img/wall-bg.png);
+	}
+.indicator{
+	/*background-color:#ffedff;opacity:0.1;*/
+	z-index : 10;
+	
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-image:url(img/point.png);
+	}
+.colision{
+background-color:#ff0000;
+	z-index : 10;
+	opacity:0.8;
+}
+body{
+	text-align:center;
+	background-color:#699829;
+	font-family: arial,sans-serif;
+	font-size: 12px;
+	color:#000;
+}
+#hiddenContent{
+	display:none;
+}
+#logo, #henIntro, #wormIllustration, div.textContainer{
+	position:absolute;
+	}
+#logo{
+	top:158px;
+	left:124px;
+}
+#henIntro{
+	top:173px;
+	left:230px;
+}
+#wormIllustration{
+	width:28px;
+	height:4px;
+	left:356px;
+	top:215px;
+	background-image:url(img/animatedBigWorm.gif);
+}
+#scene div.textContainer{
+	left:145px;
+	top:228px;
+	
+	
+}
+#scene p{
+	text-align:left;
+	line-height:1.4em;
+	margin:7px 0;
+	width:180px;
+}
+#playButton{
+	margin-left:10px;
+	margin-top:9px;
+}
+#playButton, #playAgainButton, #emailSubmiter, #emailField{
+	font-family: arial,sans-serif;
+	background-color:#699829;
+	color:white;
+	letter-spacing:-0.1px;
+	font-weight:bold;
+	padding:2px 6px;
+	border-bottom-color:#333;
+	border-right-color:#333;
+	border-top-color:#aaa;
+	border-left-color:#aaa;
+	font-size:13px;
+}
+#emailField{
+	font-weight:normal;
+	width:150px;
+	letter-spacing:0;
+	border:2px solid #333;
+	height:17px;
+}
+#playAgainForm{
+	padding-left:48px;
+	padding-top:2em;
+	text-align:left;
+}
+#instructions{
+	display:none;
+	font-size:16px;
+	line-height:1.4em;
+	position:relative;
+	margin:10px auto;
+	width:600px;
+}
+ #feedback{
+	width:430px;
+	position:relative;
+	margin:10px auto;
+}
+#tWidget{
+	position:absolute;
+	right:20px;
+	top:20px;
+}
+a.w{
+color:white;}
