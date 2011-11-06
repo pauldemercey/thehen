@@ -42,13 +42,13 @@
 	background-image:url(img/point.png);
 	}
 .colision{
-background-color:#ff0000;
+background-color:#000000;
 	z-index : 10;
 	opacity:0.8;
 }
 body{
 	text-align:center;
-	background-color:#699829;
+	background-color:#000;
 	font-family: arial,sans-serif;
 	font-size: 12px;
 	color:#000;
